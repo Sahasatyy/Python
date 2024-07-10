@@ -1,3 +1,4 @@
+#Lists
 Bucket = [1, 2, 4, 5, 43, 3233, "sahas", "Amatya", True, 2.54] #This is a list and it is mutable.
 print(Bucket)
 
@@ -9,6 +10,8 @@ print(Bucket)
 
 Bucket.append(23)
 print(Bucket)
+
+#Tuples
 
 Bucket1 = (34, 55, 45, "names") #This ia a tuple and it is ummutable
 print(Bucket1)

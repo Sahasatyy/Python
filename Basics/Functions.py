@@ -19,3 +19,10 @@ def Isgreater(a, b):
 num1 = int(input("Enter your first num: "))
 num2 = int(input("Enter your second num: "))
 Isgreater(num1, num2)
+
+#Example of f"" string
+def fString(name, grade):
+    intro = f"Hello everyone, \nMy name is {name} and i am studying in {grade} grade"
+    print(intro)
+
+fString("aayush", "9th")
